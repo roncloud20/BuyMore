@@ -1,0 +1,27 @@
+.app {
+    text-align: center;
+}
+
+.verticalScroll {
+    overflow: scroll;
+    border: 5px solid black;
+    height: 800px;
+}
+.cardList {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.card {
+    background-color: aqua;
+    box-sizing: border-box;
+    width: 300px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    /* align-content: center; */
+    align-items: center;
+    justify-content: space-between;
+}
