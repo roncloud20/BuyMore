@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const Header = ({searchChange}) => {
     return(
         <header>
@@ -6,6 +7,9 @@ const Header = ({searchChange}) => {
                 placeholder={'Search for Items'}
                 onChange={searchChange}
             />
+            <nav>
+                <Link to="/">Home</Link> | <Link to="/about">About</Link>
+            </nav>
         </header>
     )
 }
